@@ -1,5 +1,8 @@
 import { NavLink } from 'react-router-dom';
 
+import { HouseIcon } from '../Components/Icons/HouseIcon';
+import { CalendarIcon } from '../Components/Icons/CalendarIcon';
+import { EditIcon } from '../Components/Icons/EditIcon';
 import './styles/aside.css';
 
 export function AppAside() {
@@ -7,14 +10,25 @@ export function AppAside() {
     <aside>
       <nav>
         <ul>
-          <li>
+          <li className="aside-row">
+            <HouseIcon />
             <NavLink to="dashboard">Dashboard</NavLink>
           </li>
-          <li>
+          <li className="aside-row">
+            <EditIcon />
             <NavLink to="blocks">Bloki</NavLink>
           </li>
-          <li>
+          <li className="aside-row">
+            <CalendarIcon />
             <NavLink to="exercises">Ćwiczenia</NavLink>
+          </li>
+          <li className="aside-row">
+            <CalendarIcon />
+            <NavLink to="CV">cv</NavLink>
+          </li>
+          <li className="aside-row">
+            <CalendarIcon />
+            <NavLink to="kalendarz">cv</NavLink>
           </li>
         </ul>
       </nav>
