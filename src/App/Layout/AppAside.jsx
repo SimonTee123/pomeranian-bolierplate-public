@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { HouseIcon } from '../Components/Icons/HouseIcon';
 import { CalendarIcon } from '../Components/Icons/CalendarIcon';
 import { EditIcon } from '../Components/Icons/EditIcon';
+import { PersonalCardIcon } from '../Components/Icons/PersonalCardIcon';
 import './styles/aside.css';
 
 export function AppAside() {
@@ -23,12 +24,12 @@ export function AppAside() {
             <NavLink to="exercises">Ćwiczenia</NavLink>
           </li>
           <li className="aside-row">
-            <CalendarIcon />
-            <NavLink to="CV">cv</NavLink>
+            <PersonalCardIcon />
+            <NavLink to="CV">CV</NavLink>
           </li>
           <li className="aside-row">
             <CalendarIcon />
-            <NavLink to="kalendarz">cv</NavLink>
+            <NavLink to="Calendar">Kalendarz</NavLink>
           </li>
         </ul>
       </nav>

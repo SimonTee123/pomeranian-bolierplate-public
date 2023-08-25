@@ -1,0 +1,18 @@
+import { useState } from 'react';
+
+export const SeeOrNot = () => {
+  const [isVisible, setIsVisible] = useState(true);
+  function handleClick() {
+    setIsVisible(!isVisible);
+  }
+  return (
+    <div>
+      <button onClick={handleClick}>
+        {isVisible ? 'Ukryj tekst' : 'Poka tekst'}
+      </button>
+      {/*Conditional rendering*/}
+      {isVisible && <p>SeeOrNot</p>}
+      {isVisible ? <p>SeeOrNot</p> : null}
+    </div>
+  );
+};
