@@ -1,0 +1,32 @@
+.test span:first-child {
+  color: red;
+}
+
+.test span:last-child {
+  color: yellow;
+}
+
+.testspan: nth-child(2) {
+  color: green;
+}
+
+.hover:hover {
+  background-color: orange;
+}
+
+.firstname: focus {
+  background-color: pink;
+}
+
+.pseudo::before {
+  content: 'Before';
+}
+
+.pseudo::after {
+  content: 'After';
+}
+
+.pseudo::before,
+.pseudo::after {
+  content: 'X';
+}
