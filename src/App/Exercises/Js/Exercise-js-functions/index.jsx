@@ -2,15 +2,13 @@ import './styles.css';
 
 export function Exercise() {
   const animal = {
-    type: 'doggo',
-    age: 26,
-  };
-  animal.age = 28;
+    type: "Dog",
+    age: 12
+  }
+
+  
 
   console.log(animal.age);
-
-  const number1 = 7;
-  const number2 = 6;
 
   function multiply(num1, num2) {
     return num1 * num2;
@@ -34,6 +32,7 @@ export function Exercise() {
             `}
         </code>
       </pre>
+
       <section>
         <h2>Wykorzystywanie funkcji - przykłady</h2>
         <pre>
@@ -43,7 +42,6 @@ export function Exercise() {
           <code>{getWelcomeMessage('Jon', 129384)}</code>
         </pre>
       </section>
-      komunikat funkcji {getWelcomeMessage('stefan', 33)}
     </div>
   );
 }

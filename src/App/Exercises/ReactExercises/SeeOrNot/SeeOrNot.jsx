@@ -5,12 +5,13 @@ export const SeeOrNot = () => {
   function handleClick() {
     setIsVisible(!isVisible);
   }
+
   return (
     <div>
       <button onClick={handleClick}>
-        {isVisible ? 'Ukryj tekst' : 'Poka tekst'}
+        {isVisible ? 'Ukryj tekst' : 'Pokaz tekst'}
       </button>
-      {/*Conditional rendering*/}
+      {/* Conditional rendering */}
       {isVisible && <p>SeeOrNot</p>}
       {isVisible ? <p>SeeOrNot</p> : null}
     </div>

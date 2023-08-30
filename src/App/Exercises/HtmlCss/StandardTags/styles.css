@@ -1,0 +1,98 @@
+.pierwszy {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.small {
+  font-size: smaller;
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+}
+
+.kolejny {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+}
+
+.drugi {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+}
+.size {
+  font-size: 20px;
+}
+
+.style {
+  font-style: italic;
+}
+
+.weight {
+  font-weight: 700;
+}
+
+.transform {
+  text-transform: uppercase;
+}
+
+.decoration {
+  text-decoration: line-through;
+}
+
+.shadow {
+  text-shadow: 10px 9px 4px rgba(255, 18, 18, 1);
+}
+
+.height {
+  line-height: 30px;
+}
+
+.spacing {
+  letter-spacing: 15px;
+}
+
+.wordspacing {
+  word-spacing: 30px;
+}
+
+.align {
+  text-align: center;
+}
+
+.super {
+  vertical-align: super;
+}
+
+.sub {
+  vertical-align: sub;
+}
+
+.list-ol {
+  list-style-position: inside;
+  list-style-type: lower-roman;
+}

@@ -1,10 +1,10 @@
 import { getParsedRouterDataList } from '../../router-data/parseRouterData';
-import { OnCLickRouterMetaData } from './OnClick/router-data';
 
 import { SubRouteExampleMetaData } from './SubRouteExample/router-data';
+import { ReactOnClickRouterMetaData } from './ReactOnClick/router-data';
 
 export const blockRouterMetaData = [
   SubRouteExampleMetaData,
-  OnCLickRouterMetaData,
+  ReactOnClickRouterMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
