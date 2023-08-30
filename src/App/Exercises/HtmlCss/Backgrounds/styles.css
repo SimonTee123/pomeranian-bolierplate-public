@@ -5,4 +5,7 @@
   background-size: cover;
   background-position: center center;
   background-repeat: repeat;
+  filter: grayscale(15%) sepia(64%) blur(3px);
+  -webkit-filter: grayscale(15%) sepia(64%) blur(3px);
+  -moz-filter: grayscale(15%) sepia(64%) blur(3px);
 }
