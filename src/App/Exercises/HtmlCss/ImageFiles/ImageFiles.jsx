@@ -1,4 +1,5 @@
 import './styles.css';
+
 /*import first from './jotpeg.jpg';
 import second from './peengie.png';
 import third from './1456764.svg';
@@ -10,7 +11,7 @@ export const ImageFiles = () => {
       <img src={third} alt="wiewiórka" />*/
 import logoPomeranian from './pomeranian-icon.jpg';
 import zdjecie from './Zdjecie.jpg';
-import { RoundImage } from '../../../Components/RoundImage/RoundImage';
+import { RoundImage } from '../RoundImage/RoundImage';
 
 export function Imagefiles() {
   return (
