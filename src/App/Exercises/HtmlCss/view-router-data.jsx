@@ -18,5 +18,6 @@ export const blockRouterMetaData = [
   ColorsRouterMetaData,
   imageFilesRouterMetaData,
   backgroundsRouterMetaData,
+  imageFilesRouterMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

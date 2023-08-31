@@ -1,5 +1,5 @@
 import './styles.css';
-import first from './jotpeg.jpg';
+/*import first from './jotpeg.jpg';
 import second from './peengie.png';
 import third from './1456764.svg';
 export const ImageFiles = () => {
@@ -7,7 +7,17 @@ export const ImageFiles = () => {
     <div className="images">
       <img src={first} alt="kot" />
       <img src={second} alt="kuń" />
-      <img src={third} alt="wiewiórka" />
+      <img src={third} alt="wiewiórka" />*/
+import logoPomeranian from './pomeranian-icon.jpg';
+import zdjecie from './Zdjecie.jpg';
+import { RoundImage } from '../../../Components/RoundImage/RoundImage';
+
+export function Imagefiles() {
+  return (
+    <div>
+      <img src={logoPomeranian} alt="Pomeranian logo" />
+      <img src={zdjecie} alt="Zdjęcie" />
+      <RoundImage src={zdjecie}>width: `200px`, height: `200px`,</RoundImage>
     </div>
   );
-};
+}
