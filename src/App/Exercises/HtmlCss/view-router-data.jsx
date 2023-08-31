@@ -4,7 +4,10 @@ import { ColorsRouterMetaData } from './Colors/router-data';
 import { CssAnimationsRouterMetaData } from './CssAnimations/router-data';
 
 import { blockRouterMetaData as blockRouterMetaData121220231 } from './Exercise-example-12-12-2023-1/router-data';
+import { blockRouterMetaData as MediaFilesMetaData } from './MediaFiles/router-data';
+
 import { imageFilesRouterMetaData } from './ImageFiles/router-data';
+import { MediaRouterMetaData } from './MediaFiles/router-data';
 import { htmlCssRouterMetaData } from './SelectorsAndCascade/router-data';
 import { standardTagsRouterMetaData } from './StandardTags/router-data';
 import { textFundamentsRouterMetaData } from './TextFundaments/router-data';
@@ -19,5 +22,6 @@ export const blockRouterMetaData = [
   imageFilesRouterMetaData,
   backgroundsRouterMetaData,
   imageFilesRouterMetaData,
+  MediaFilesMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
