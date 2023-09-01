@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { Backgrounds } from './Backgrounds';
+import { HTMLTables } from './HtmlTables';
 
-export const backgroundsRouterMetaData = {
-  path: 'backgrounds',
-  date: '30-08-2023',
-  linkLabel: 'Tła',
-  element: <Backgrounds />,
-  tags: ['css', 'backgroud'],
+export const htmlTablesRouterMetaData = {
+  path: 'html-tables',
+  date: '01-09-2023',
+  linkLabel: 'Pierwsze tabelki',
+  element: <HTMLTables />,
+  tags: ['tables', 'HTML', 'CSS'],
 };

@@ -1,4 +1,4 @@
-import { SingleQuestion } from './SingleQuestion/SingleQuestion';
+import { SingleQuestion } from './SingleQuestion';
 import './styles.css';
 
 export const FAQ = () => {

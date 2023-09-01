@@ -12,6 +12,8 @@ import { htmlCssRouterMetaData } from './SelectorsAndCascade/router-data';
 import { standardTagsRouterMetaData } from './StandardTags/router-data';
 import { textFundamentsRouterMetaData } from './TextFundaments/router-data';
 import { blockRouterMetaData as BoxModelExercise } from './BoxModel/router-data';
+import { HTMLTables } from './HTMLTables/HtmlTables';
+import { htmlTablesRouterMetaData } from './HTMLTables/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaData121220231,
@@ -25,5 +27,6 @@ export const blockRouterMetaData = [
   imageFilesRouterMetaData,
   MediaFilesMetaData,
   BoxModelExercise,
+  htmlTablesRouterMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
