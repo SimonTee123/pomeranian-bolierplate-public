@@ -1,6 +1,5 @@
 import React from 'react';
 import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom';
-
 import { Blocks } from './App/Blocks';
 import { Layout } from './App/Layout';
 import { Dashboard } from './App/Dashboard';
@@ -9,7 +8,6 @@ import { Calendar } from './App/Components/Calendar/Calendar';
 import { CV } from './App/Components/CV/CV';
 import { Blog } from './App/Blog/Blog';
 import { FAQ } from './App/FAQ/FAQ';
-import { NotFound } from './App/Components/NotFound/NotFound';
 
 export function App() {
   return (
@@ -24,7 +22,7 @@ export function App() {
           <Route path="blocks/*" element={<Blocks />} />
           <Route path="Calendar/*" element={<Calendar />} />
           <Route path="Blog/*" element={<Blog />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="FAQ/*" element={<FAQ />} />
         </Route>
       </Routes>
     </BrowserRouter>
