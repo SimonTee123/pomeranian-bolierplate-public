@@ -14,6 +14,8 @@ import { textFundamentsRouterMetaData } from './TextFundaments/router-data';
 import { blockRouterMetaData as BoxModelExercise } from './BoxModel/router-data';
 import { HTMLTables } from './HTMLTables/HtmlTables';
 import { htmlTablesRouterMetaData } from './HTMLTables/router-data';
+import { tablesTennisRouterMetaData } from '../TablesTennis/router-data';
+import { arrayRenderingRouterMetaData } from './ArrayRendering/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaData121220231,
@@ -28,5 +30,7 @@ export const blockRouterMetaData = [
   MediaFilesMetaData,
   BoxModelExercise,
   htmlTablesRouterMetaData,
+  tablesTennisRouterMetaData,
+  arrayRenderingRouterMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
