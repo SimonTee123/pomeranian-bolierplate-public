@@ -1,4 +1,4 @@
-export function MessageIcon({ className = ' ' }) {
+export function MessageIcon({ className = '' }) {
   return (
     <svg
       width="24"

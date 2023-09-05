@@ -29,7 +29,7 @@ export const blockRouterMetaData = [
   backgroundsRouterMetaData,
   imageFilesRouterMetaData,
   MediaFilesMetaData,
-  BoxModelExercise,
+
   htmlTablesRouterMetaData,
   tablesTennisRouterMetaData,
   arrayRenderingRouterMetaData,

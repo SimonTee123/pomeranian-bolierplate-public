@@ -1,33 +1,13 @@
-.pierwszy {
-  display: flex;
-  padding: 18px 24px;
-  flex-direction: column;
-  align-items: flex-start;
-
-  align-self: stretch;
-  border-radius: 8px;
-  border-left: 5px solid var(--gray-300, #c8cbd1);
-  background: var (--background-bg-primary, #fff);
+.strona {
+  width: 1440px;
+  height: 1976px;
+  border-radius: 10px;
+  background: #fff;
 }
 
-h1 {
-  font-family: poppins;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 34px;
-}
-
-hr {
-  background: #ebebeb;
-  border: 1;
-}
-
-p {
-  color: var(--text-text-primary, #222);
-  font-family: poppins;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
+.nagłówek {
+  width: 1440px;
+  height: 1976px;
+  border-radius: 10px;
+  background: #fff;
 }
