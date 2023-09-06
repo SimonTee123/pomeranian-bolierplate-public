@@ -7,7 +7,7 @@ import { ErrorBoundary } from './ErrorBoundary';
 
 import './styles/layout.css';
 import { AppAside } from './AppAside';
-
+import { CookiesBanner } from '../Components/CookiesBanner/CookiesBanner';
 function getLayoutClassName(withSidebar) {
   return withSidebar ? 'layout with-sidebar' : 'layout';
 }
@@ -23,6 +23,7 @@ export const Layout = ({ withSidebar }) => {
         </main>
         <AppFooter />
       </div>
+      <CookiesBanner />
     </ErrorBoundary>
   );
 };

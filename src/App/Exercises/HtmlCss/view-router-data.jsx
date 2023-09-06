@@ -12,12 +12,15 @@ import { htmlCssRouterMetaData } from './SelectorsAndCascade/router-data';
 import { standardTagsRouterMetaData } from './StandardTags/router-data';
 import { textFundamentsRouterMetaData } from './TextFundaments/router-data';
 import { blockRouterMetaData as BoxModelExercise } from './BoxModel/router-data';
-import { HTMLTables } from './HTMLTables/HtmlTables';
 import { htmlTablesRouterMetaData } from './HTMLTables/router-data';
 import { tablesTennisRouterMetaData } from '../TablesTennis/router-data';
 import { arrayRenderingRouterMetaData } from './ArrayRendering/router-data';
 import { arrayRenderToTableRouterMetaData } from './ArrayRenderToTable/router-data';
 import { floatAndPositioningRouterMetaData } from './FloatsAndPositioning/router-data';
+import { floatsAndPositioningRouterMetaData } from './FloatsAndPositioningExercises/router-data';
+import { floatAndPositioningExercisesRouterMetaData } from './FloatsAndPositioningExercises/router-data';
+import { cookiesBannerRouterMetaData } from '../../Components/CookiesBanner/router-data';
+import { CookiesBanner } from '../../Components/CookiesBanner/CookiesBanner';
 
 export const blockRouterMetaData = [
   blockRouterMetaData121220231,
@@ -30,11 +33,12 @@ export const blockRouterMetaData = [
   backgroundsRouterMetaData,
   imageFilesRouterMetaData,
   MediaFilesMetaData,
-
   htmlTablesRouterMetaData,
   tablesTennisRouterMetaData,
   arrayRenderingRouterMetaData,
   arrayRenderToTableRouterMetaData,
   floatAndPositioningRouterMetaData,
+  floatAndPositioningExercisesRouterMetaData,
+  CookiesBanner,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

@@ -1,7 +1,7 @@
 import './styles.css';
 import first from '../ImageFiles/jotpeg.jpg';
 
-export const FloatsAndPositioning = () => {
+export const FloatsAndPositioningExercises = () => {
   return (
     <div className="container">
       <div className="element">
