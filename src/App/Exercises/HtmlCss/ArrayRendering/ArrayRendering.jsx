@@ -25,7 +25,7 @@ export const ArrayRendering = () => {
         {OBJECT_DATA.map((item) => {
           return (
             <li
-              id={item.id}
+              key={item.id}
             >{`${item.make} ${item.model} produced in ${item.year}`}</li>
           );
         })}

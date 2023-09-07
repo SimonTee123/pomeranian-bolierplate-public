@@ -4,7 +4,7 @@ import './styles/header.css';
 import { Logo } from '../Components/Logo/Logo';
 import { Link } from 'react-router-dom';
 
-import { SettingIcon, SettingsIcon } from '../Components/Icons/SettingIcon';
+import { SettingIcon } from '../Components/Icons/SettingIcon';
 import { HeaderMenu } from '../Components/HeaderMenu/HeaderMenu';
 
 export function AppHeader() {

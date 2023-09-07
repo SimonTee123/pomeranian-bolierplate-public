@@ -10,7 +10,7 @@
   -moz-filter: grayscale(15%) sepia(64%) blur(3px);
 }
 
-table {
+.pierwszatabela table {
   table-layout: fixed;
   width: 100%;
   text-align: left;
@@ -18,12 +18,12 @@ table {
   border-collapse: collapse;
 }
 
-td,
+.pierwszatabela td,
 th {
   padding: 5px;
   border: 1px solid #ccc;
 }
 
-tr:nth-child(2n) {
+.pierwszatabela tr:nth-child(2n) {
   background-color: pink;
 }

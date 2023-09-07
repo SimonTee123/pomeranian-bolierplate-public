@@ -6,7 +6,7 @@ import star from '../../Images/star.svg';
 
 export const TablesTennis = () => {
   return (
-    <div>
+    <div className="pierwszatabela">
       <table>
         <tr>
           <th>Location</th>
