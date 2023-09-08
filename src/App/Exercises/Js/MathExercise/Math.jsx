@@ -1,4 +1,4 @@
-export const JsNumbers = () => {
+export const Math = () => {
   const myNumber = '1.231';
 
   let myInt = parseInt(myNumber);

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Exercise } from './index';
+import { Boolean } from './Boolean';
 
-export const blockRouterMetaData = {
+export booleanRouterMetaData = {
   path: 'boolean',
 
   date: '07-09-2023',
@@ -11,7 +11,7 @@ export const blockRouterMetaData = {
 
   blockNo: 18,
 
-  element: <Exercise />,
+  element: <Boolean />,
 
   tags: ['boolean', 'const', 'true', 'false'],
 };

@@ -8,6 +8,4 @@ export const jsNumbersRouterMetaData = {
   linkLabel: 'JS Numbers',
 
   element: <JsNumbers />,
-
-  tags: ['boolean', 'const', 'true', 'false'],
 };
