@@ -12,6 +12,6 @@ th {
   border: 1px solid #ccc;
 }
 
-tr:nth-child(odd) {
+tr:nth-child(2n) {
   background-color: white;
 }

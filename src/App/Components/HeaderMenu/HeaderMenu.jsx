@@ -7,7 +7,7 @@ export const HeaderMenu = () => {
     <div className="headerMenu">
       <div className="headerMenuIcon"></div>
       <div className="headerUser">
-        <p>Radek</p>
+        <p>Szymon</p>
         <p>kursant</p>
       </div>
       <ToggleArrow />
