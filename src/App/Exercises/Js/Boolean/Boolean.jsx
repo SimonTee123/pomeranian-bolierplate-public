@@ -1,7 +1,7 @@
 //import './styles.css';
 
 // Boolean
-export function Exercise() {
+export const Boolean = () => {
   // Boolean (true/false), gdzie true = 1 a false = 0
   // Boolean - zastosowanie
   // 1. Walidacja danych
@@ -148,4 +148,4 @@ export function Exercise() {
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
 
   return content;
-}
+};

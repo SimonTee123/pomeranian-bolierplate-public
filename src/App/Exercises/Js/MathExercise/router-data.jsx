@@ -1,3 +1,4 @@
+import React from 'react';
 import { Math } from './MathExercise';
 
 export const mathRouterMetaData = {
@@ -10,6 +11,4 @@ export const mathRouterMetaData = {
   element: <Math />,
 
   blockNo: 18,
-
-  tags: ['boolean', 'const', 'true', 'false'],
 };

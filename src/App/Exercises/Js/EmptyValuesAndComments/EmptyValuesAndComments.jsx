@@ -1,3 +1,3 @@
-export const JsStringCoding = () => {
+export const EmptyValuesAndComments = () => {
   return <div>Hello</div>;
 };

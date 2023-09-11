@@ -1,8 +1,7 @@
 import React from 'react';
-
 import { Boolean } from './Boolean';
 
-export booleanRouterMetaData = {
+export const booleanRouterMetaData = {
   path: 'boolean',
 
   date: '07-09-2023',
