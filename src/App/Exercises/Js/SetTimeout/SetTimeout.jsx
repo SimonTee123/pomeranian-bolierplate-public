@@ -46,3 +46,9 @@ export const SetTimeout = () => {
     </div>
   );
 };
+
+// Uważać na zależności między useEffectami by nie stworzyć sobie pętli
+//   useEffect(() => {
+//     console.log('useEffect na każdej zmianie');
+//     setCount((prev) => prev + 1);
+//   });
