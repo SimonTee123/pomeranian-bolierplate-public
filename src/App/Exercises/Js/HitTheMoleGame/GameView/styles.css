@@ -1,0 +1,70 @@
+.szary-guzik {
+  display: flex;
+  width: 163px;
+  border-radius: 10px;
+  background-color: rgb(219, 205, 205);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  justify-content: center;
+  gap: 38px;
+}
+
+.stop-guzik {
+  display: flex;
+  width: 163px;
+  border-radius: 10px;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  justify-content: center;
+  gap: 38px;
+}
+
+.opisy {
+  gap: 38px;
+  display: flex;
+}
+
+.rows1 {
+  gap: 18px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 49px;
+}
+
+.square {
+  width: 102px;
+  height: 102px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: rgb(219, 205, 205);
+}
+
+.rectangles {
+  /*width: 1440px;
+  height: 1111px;*/
+  display: grid;
+  grid-template-columns: repeat(5, 102px);
+  grid-template-rows: repeat(2, 102px);
+  justify-items: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 15px;
+}
+
+.zielony-guzik {
+  background-color: green;
+}
+
+.czerwony-guzik {
+  background-color: red;
+}

@@ -17,6 +17,7 @@ import { floatAndPositioningRouterMetaData } from './FloatsAndPositioning/router
 import { floatAndPositioningExercisesRouterMetaData } from './FloatsAndPositioningExercises/router-data';
 import { cookiesBannerRouterMetaData } from '../../Components/CookiesBanner/router-data';
 import { rwdRouterMetaData } from './RWD/router-data';
+import { BoxModel2RouterMetaData } from './BoxModel2/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaData121220231,
@@ -38,5 +39,6 @@ export const blockRouterMetaData = [
   rwdRouterMetaData,
   htmlCssRouterMetaData,
   boxModelRouterMetaData,
+  BoxModel2RouterMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
