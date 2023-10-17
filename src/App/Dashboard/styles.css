@@ -1,2 +1,140 @@
 .dashboard {
+  display: grid;
+
+  grid-template-columns: 1fr 200px;
+
+  grid-template-rows: auto auto 1fr;
+
+  grid-column-gap: 15px;
+
+  grid-row-gap: 20px;
+  background: #fff;
+}
+
+.dashboard-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.dashboard-card {
+  grid-area: 3 / 1 / 4 / 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  padding: 20px 28px;
+  border: 1px solid rgb(237, 223, 225);
+  border-radius: 8px;
+  text-align: center;
+  gap: 15px;
+}
+
+.dashboard-card > h3 {
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.dashboard-card > svg {
+  transform: scale(2);
+}
+
+.dashboard-card > p {
+  font-size: 12px;
+  line-height: 20px;
+  margin: 20px 0;
+}
+.dashboard-card > a {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 77, 105, 1);
+}
+
+.dashboard-description {
+  color: var(--secondary-secondary, #23213d);
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* header/H4 */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 188.889% */
+}
+
+.dashboard-aside {
+  grid-area: 1 / 2 / 4 / 5;
+  background: var(--colors-white-100, #fff);
+  width: 434px;
+  height: 360px;
+  border-radius: 10px;
+  background: var(--colors-white-100, #fff);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  gap: 15px;
+}
+
+.Aside-Box {
+  height: 195px;
+  width: 287px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.SideUserIcon {
+  background-color: orange;
+  border-radius: 50%;
+  align-self: flex-start;
+}
+.SideUserTitle {
+  color: var(--secondary-secondary, #23213d);
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-self: flex-start;
+}
+.SideUserCity {
+  color: var(--colors-black-100, #000);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.4;
+  align-self: flex-start;
+}
+.SideUserEmail {
+  color: var(--colors-black-100, #000);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.4;
+  height: 195px;
+  width: 287px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.SideUserPhone {
+  color: var(--colors-black-100, #000);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.4;
+  height: 195px;
+  width: 287px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ImageAvatar {
+  border-radius: 80%;
 }

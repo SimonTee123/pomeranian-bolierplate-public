@@ -41,17 +41,17 @@ export const ArrayRenderToTable = () => {
   return (
     <table className="table">
       <tr>
-        <th>Zespół</th>
-        <th>Rok Powstania</th>
-        <th>Ilość albumów</th>
+        <th1>Zespół</th1>
+        <th1>Rok Powstania</th1>
+        <th1>Ilość albumów</th1>
         <th>Najpopularniejsza piosenka</th>
       </tr>
       {bands.map((item) => (
         <tr key={item.band}>
-          <td>{item.band}</td>
-          <td>{item.yearFormed}</td>
-          <td>{item.albums}</td>
-          <td>{item.mostFamousSong}</td>
+          <td1>{item.band}</td1>
+          <td1>{item.yearFormed}</td1>
+          <td1>{item.albums}</td1>
+          <td1>{item.mostFamousSong}</td1>
         </tr>
       ))}
     </table>

@@ -10,7 +10,7 @@ import { standardTagsRouterMetaData } from './StandardTags/router-data';
 import { textFundamentsRouterMetaData } from './TextFundaments/router-data';
 import { boxModelRouterMetaData } from './BoxModel/router-data';
 import { htmlTablesRouterMetaData } from './HTMLTables/router-data';
-import { tablesTennisRouterMetaData } from '../TablesTennis/router-data';
+import { tablesTennisRouterMetaData } from './TablesTennis/router-data';
 import { arrayRenderingRouterMetaData } from './ArrayRendering/router-data';
 import { arrayRenderToTableRouterMetaData } from './ArrayRenderToTable/router-data';
 import { floatAndPositioningRouterMetaData } from './FloatsAndPositioning/router-data';

@@ -1,0 +1,27 @@
+#wrapper {
+  margin: 0px;
+  height: 500px;
+  width: 500px;
+}
+p:hover {
+  color: #0fc;
+}
+#button {
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+#text {
+  margin: 0px;
+  height: 495px;
+  width: 395px;
+  float: left;
+  border-style: solid;
+  border-width: thin;
+}
+
+p {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}

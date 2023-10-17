@@ -1,5 +1,5 @@
 import './styles.css';
-import star from '../../Images/star.svg';
+import star from '../../../Images/star.svg';
 
 //import { star } from '../../Images/star.svg';
 //<td><img src = {star} alt="star"</td>
@@ -17,32 +17,35 @@ export const TablesTennis = () => {
           <td>Cape Verde Islands</td>
           <td>#100120</td>
           <td>
-            <img src={star} alt="gwiazda" />
+            {Array.from({ length: 2 }).map(() => (
+              <img src={star} alt="rating" />
+            ))}
           </td>
         </tr>
         <tr>
           <td>Cape Verde Islands</td>
           <td>#100122</td>
           <td>
-            <img src={star} alt="gwiazda" />
-            <img src={star} alt="gwiazda" />
-            <img src={star} alt="gwiazda" />
+            <td className="gwiazdy">
+              {Array.from({ length: 3 }).map(() => (
+                <img src={star} alt="rating" />
+              ))}
+            </td>
           </td>
         </tr>
         <tr>
           <td>Cape Verde Islands</td>
           <td>#100124</td>
-          <td>
-            <img src={star} alt="gwiazda" />
-            <img src={star} alt="gwiazda" />
-            <img src={star} alt="gwiazda" />
-            <img src={star} alt="gwiazda" />
+          <td className="gwiazdy">
+            {Array.from({ length: 5 }).map(() => (
+              <img src={star} alt="rating" />
+            ))}
           </td>
         </tr>
         <tr>
           <td>UNITED STATES OF AMERICA</td>
           <td>#100126</td>
-          <td>
+          <td className="gwiazdy">
             <img src={star} alt="gwiazda" />
           </td>
         </tr>
@@ -50,10 +53,11 @@ export const TablesTennis = () => {
           <td>UNITED STATES OF AMERICA</td>
           <td>#100128</td>
           <td>
-            <img src={star} alt="gwiazda" />
-            <img src={star} alt="gwiazda" />
-            <img src={star} alt="gwiazda" />
-            <img src={star} alt="gwiazda" />
+            <td className="gwiazdy">
+              {Array.from({ length: 5 }).map(() => (
+                <img src={star} alt="rating" />
+              ))}
+            </td>
           </td>
         </tr>
       </table>

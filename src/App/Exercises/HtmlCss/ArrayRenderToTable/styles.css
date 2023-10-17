@@ -13,13 +13,13 @@ tr {
 tr:nth-child(odd) {
   background-color: #ffffff;
 }
-td,
-th {
+td1,
+th1 {
   padding: 10px;
   border: 1px solid #ddd;
   text-align: center;
 }
 
-th {
+th1 {
   background-color: #ccc;
 }

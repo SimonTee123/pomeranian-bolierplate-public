@@ -16,6 +16,10 @@ import { JsFunctionBasicsRouterMetaData } from './JsFunctionBasics/router-data';
 import { SetTimeoutRouterMetaData } from './SetTimeout/router-data';
 import { AnimationsJSRouterMetaData } from './AnimationsJS/router-data';
 import { HitTheMoleGameRouterMetaData } from './HitTheMoleGame/router-data';
+import { EmptyValuesAndStringssRouterMetaData } from './EmptyValuesAndStrings/router-data';
+import { StringMethodsRouterMetaData } from './StringMethods/router-data';
+import { JsExtensionRouterMetaData } from './JsExtension/router-data';
+import { VanishingStringRouterMetaData } from './VanishingString/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -34,5 +38,9 @@ export const blockRouterMetaData = [
   SetTimeoutRouterMetaData,
   AnimationsJSRouterMetaData,
   HitTheMoleGameRouterMetaData,
+  EmptyValuesAndStringssRouterMetaData,
+  StringMethodsRouterMetaData,
+  JsExtensionRouterMetaData,
+  VanishingStringRouterMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

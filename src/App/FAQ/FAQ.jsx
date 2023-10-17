@@ -1,17 +1,17 @@
-import { SingleQuestion } from './SingleQuestion';
+import { FAQNote } from './Components/FAQNote';
+
+import { mockData } from './data';
+
 import './styles.css';
 
-export const FAQ = () => {
+export function FAQ() {
+  function renderNote(note) {
+    return <FAQNote title={note.title} desciption={note.description} />;
+  }
   return (
-    <>
-      <div>
-        <SingleQuestion question="Ile jest dni w tygodniu?" answer="Siedem!" />
-        <SingleQuestion question="Pomi?" answer="Dory :)" />
-        <SingleQuestion question="Ser..." answer="...watka." />
-        <SingleQuestion question="Test1" answer="Answer1" />
-        <SingleQuestion question="Test1" answer="Answer1" />
-        <SingleQuestion question="Test1" answer="Answer1" />
-      </div>
-    </>
+    <div className="faq">
+      <h1>Faq</h1>
+      {mockData.map(renderNote)}
+    </div>
   );
-};
+}

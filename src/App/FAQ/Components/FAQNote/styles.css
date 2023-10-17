@@ -1,0 +1,53 @@
+.header-for-props {
+  padding: 18px 24px;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 5px solid var(--gray-300, #c8cbd1);
+  background: var(--background-bg-primary, #fff);
+  margin-right: 50px;
+  gap: 15px;
+}
+
+.fax-note-wrapper {
+  height: 230px;
+  align-self: stretch;
+  color: var(--text-text-primary, #222);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  border-radius: 8px;
+  border: 5px solid var(--gray-300, #c8cbd1);
+  background: var(--background-bg-primary, #fff);
+  margin-right: 50px;
+  gap: 15px;
+}
+
+.box-for-description {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--background-bg-primary, #fff);
+  margin-right: 50px;
+
+  color: var(--text-text-primary, #222);
+  line-height: 32px; /* 177.778% */
+  margin-bottom: 18px;
+  padding: 18px 24px;
+  border: 1px solid var(--gray-300, #c8cbd1);
+  border-left: 5px solid var(--gray-300, #c8cbd1);
+  border-radius: 16px;
+
+  box-shadow: 0px 3px 46px 0px rgba(0, 0, 0, 0.06),
+    0px 4px 10px 0px rgba(0, 0, 0, 0.07);
+}
+
+.rotate {
+  transform: rotate(-90deg);
+}
