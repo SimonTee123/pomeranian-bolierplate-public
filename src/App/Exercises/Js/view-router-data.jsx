@@ -20,6 +20,7 @@ import { EmptyValuesAndStringssRouterMetaData } from './EmptyValuesAndStrings/ro
 import { StringMethodsRouterMetaData } from './StringMethods/router-data';
 import { JsExtensionRouterMetaData } from './JsExtension/router-data';
 import { VanishingStringRouterMetaData } from './VanishingString/router-data';
+import { memoMetaData } from './MemoryGame/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -42,5 +43,6 @@ export const blockRouterMetaData = [
   StringMethodsRouterMetaData,
   JsExtensionRouterMetaData,
   VanishingStringRouterMetaData,
+  memoMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
